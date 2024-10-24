@@ -1,0 +1,10 @@
+bot-token: "YOUR_BOT_TOKEN"
+channel-id: "YOUR_CHANNEL_ID"
+server-name: "YOUR_SERVER_NAME"
+server-ip: "YOUR_SERVER_IP"
+supported-version: "YOUR_SUPPORTED_VERSION"
+message-id: ""
+update-interval: 60
+tps-threshold: 15.0
+alert-role-id: "ROLE_ID_TO_PING"
+maintenance-role-id: "ROLE_ID_FOR_MAINTENANCE"

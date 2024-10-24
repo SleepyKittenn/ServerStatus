@@ -1,0 +1,20 @@
+name: ServerStatus-Bukkit
+version: 1.0.0
+main: live.amsleepy.serverstatusbukkit.ServerStatus_Bukkit
+api-version: '1.13'
+author: sleepy
+
+commands:
+  serverstatus:
+    description: Manages the server status.
+    usage: /serverstatus [reload|maintenance [on|off]]
+    aliases: [ss]
+    permission: serverstatus.reload
+
+permissions:
+  serverstatus.reload:
+    description: Allows the player to reload the server status plugin configuration.
+    default: op
+  serverstatus.maintenance:
+    description: Allows the player to toggle maintenance status.
+    default: op
